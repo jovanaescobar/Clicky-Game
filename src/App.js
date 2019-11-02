@@ -14,6 +14,33 @@ class App extends Component {
     goal: 8
   };
 
+shuffleDonuts = id => {
+    // Filter this.state.donuts for donuts with an id not equal to the id being removed
+    let clickedDonutId = this.state.clickedDonutId;
+
+    if(clickedDonutId.includes(id)){
+      this.setState({clickedDonutId: [], total: 0});
+      return;
+
+    } else {
+      clickedDonutId.push(id)
+
+      if(clickedDonutId.length === 8){
+        this.setState({total: 8, clickedDonutId: []});
+        console.log('You Win');
+        return;
+      }
+    
+    // Set this.state.donuts equal to the new donuts array
+    this.setState({ sweets, clickedDonutId, total: clickedDonutId.length});
+
+
+  for (let i = sweets.length - 1; i > 0; i--) {
+    let j = Math.floor(Math.random() * (i + 1));
+    [sweets[i], sweets[j]] = [sweets[j], sweets[i]];
+  }
+  }
+  }
 
 
  // Map over this.state.donuts and render a donut card component for each donut object
