@@ -1,0 +1,11 @@
+.wrapper {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    overflow: auto;
+    background-color: thistle;
+  
+  }
