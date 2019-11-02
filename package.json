@@ -1,0 +1,28 @@
+{
+  "name": "clicky-game",
+  "version": "1.0.0",
+  "description": "Donut Clicky Game",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-icons": "^2.2.7",
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jovanaescobar/Clicky-Game.git"
+  },
+  "author": "Jovana E.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jovanaescobar/Clicky-Game/issues"
+  },
+  "homepage": "https://github.com/jovanaescobar/Clicky-Game#readme"
+}
