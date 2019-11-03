@@ -1,7 +1,6 @@
 import React from "react";
 import "./Donuts.css";
 
-<<<<<<< HEAD
 
 function Donuts(props) {
     return (
@@ -16,7 +15,6 @@ function Donuts(props) {
 
 
 export default Donuts;
-=======
 function Donuts(props) {
     return (
       <div className="donuts img-container">
@@ -27,4 +25,3 @@ function Donuts(props) {
   }
 
 export default Donuts;
->>>>>>> e7b23b1e178e9ad295ee001faddda25322846086
