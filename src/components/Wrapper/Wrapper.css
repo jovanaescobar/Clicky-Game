@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .wrapper {
     padding-top: 50px;
     padding-left: 50px;
@@ -9,3 +10,16 @@
     background-color: thistle;
   
   }
+=======
+.wrapper {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    overflow: auto;
+    background-color: thistle;
+  
+  }
+>>>>>>> e7b23b1e178e9ad295ee001faddda25322846086

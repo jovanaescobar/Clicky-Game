@@ -8,4 +8,8 @@ function Wrapper(props) {
   }
 
 
+<<<<<<< HEAD
 export default Wrapper;
+=======
+export default Wrapper;
+>>>>>>> e7b23b1e178e9ad295ee001faddda25322846086
